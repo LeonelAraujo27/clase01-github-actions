@@ -12,3 +12,11 @@ jobs:
      - run: echo "Correr configuraciones"
      - run: echo "Generar binario"
      - run: echo "Publicar version"
+     
+  deploy-codigofacilito2:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "Hacemos pull del codigo"
+     - run: echo "Correr configuraciones"
+     - run: echo "Generar binario"
+     - run: echo "Publicar version"   
